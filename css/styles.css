@@ -31,3 +31,24 @@ h1 {
   background-color: #04AA6D;
   color: white;
 }
+
+.container {
+  display: flex;
+  align-items: center; /* Aligns content vertically */
+  justify-content: space-between; /* Spaces out text and image */
+  max-width: 900px; /* Adjust as needed */
+  margin: auto;
+  padding: 20px;
+}
+
+.text {
+  flex: 1;
+  padding-right: 20px; /* Adds spacing between text and image */
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* Optional styling */
+  width: 300px; /* Adjust size */
+}
