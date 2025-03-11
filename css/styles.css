@@ -1,7 +1,7 @@
 h1 {
     color: #ff5050;
     font-family: "Helvetica", sans-serif;
-    font-size: 150%;
+    font-size: 250%;
     text-align: center;
   }
 
@@ -51,6 +51,7 @@ h1 {
 .text {
   flex: 1;
   padding-right: 20px; /* Adds spacing between text and image */
+  font-family: "Helvetica", sans-serif;
 }
 
 .image img {
