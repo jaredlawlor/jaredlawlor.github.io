@@ -5,7 +5,11 @@ h1 {
     text-align: center;
   }
 
-  p {
+h2 {
+  font-family: "Helvetica", sans-serif;
+}
+
+p {
     color: black;
     font-family: "Helvetica", sans-serif;
   }
@@ -14,7 +18,8 @@ h1 {
 .topnav {
   background-color: #333;
   overflow: hidden;
-  align-items: center;
+  align-content: center;
+  max-width: 900px;
 }
 
 /* Style the links inside the navigation bar */
@@ -58,5 +63,5 @@ h1 {
   max-width: 100%;
   height: auto;
   border-radius: 10px; /* Optional styling */
-  width: 300px; /* Adjust size */
+  width: 600px; /* Adjust size */
 }
