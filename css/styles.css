@@ -1,7 +1,12 @@
 h1 {
-    color: lightblue;
-    font-family: "Arial", monospace;
-    font-size: 300%;
+    color: #ff5050;
+    font-family: "Helvetica", sans-serif;
+    font-size: 150%;
+  }
+
+  p {
+    color: black;
+    font-family: "Helvetica", sans-serif;
   }
 
 /* Add a black background color to the top navigation */
@@ -28,7 +33,7 @@ h1 {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #ff5050;
   color: white;
 }
 
